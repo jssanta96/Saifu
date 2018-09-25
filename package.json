@@ -1,0 +1,20 @@
+{
+  "name": "saifu",
+  "version": "1.0.0",
+  "description": "Saifu",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon ./server/server.js"
+  },
+  "keywords": [],
+  "author": "Cthulhu",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "nodemon": "^1.18.4",
+    "pg": "^7.4.3",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.38.1"
+  }
+}
